@@ -1,0 +1,8 @@
+Changes
+lib/File/ERC.pm
+Makefile.PL
+MANIFEST
+README
+t/erctest.t
+VERSION
+META.yml                                 Module meta-data (added by MakeMaker)
