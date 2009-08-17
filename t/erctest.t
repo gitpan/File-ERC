@@ -76,7 +76,8 @@ $m = erc_anvl2erc_turtle("erc: bar");
 like $m, qr/string/, 'turtle conversion abort, no return string';
 
 $m = erc_anvl2erc_turtle("erc: $r", $turtle_rec);
-#print "m=$m\n";
+print "erc: $r\n";
+print "$turtle_rec\n";
 like $turtle_rec, qr/erc:who.*erc:what.*erc:when.*erc:where/s,
 	'turtle conversion with 9 reduced to 6 elems';
 # xxx is 9 to 6 ok?

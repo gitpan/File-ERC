@@ -1,3 +1,4 @@
+use 5.000000;
 use strict;
 use warnings;
 use ExtUtils::MakeMaker;
@@ -15,7 +16,7 @@ WriteMakefile(
     },
     PL_FILES            => {},
     PREREQ_PM => {
-	'File::ANVL'	=> 0,
+	'File::ANVL'	=> 0.15,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'File-ERC-*' },
