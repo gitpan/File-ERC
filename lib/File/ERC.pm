@@ -1,11 +1,11 @@
 package File::ERC;
 
-use 5.000000;
+use 5.006;
 use strict;
 use warnings;
 
 our $VERSION;
-$VERSION = sprintf "%d.%02d", q$Name: Release-0-02 $ =~ /Release-(\d+)-(\d+)/;
+$VERSION = sprintf "%d.%02d", q$Name: Release-0-03 $ =~ /Release-(\d+)-(\d+)/;
 
 require Exporter;
 our @ISA = qw(Exporter);
@@ -205,7 +205,7 @@ __END__
 
 =head1 NAME
 
-File::ERC - routines to support Electronic Resource Citations, version 0.01
+File::ERC - routines to support Electronic Resource Citations
 
 =head1 SYNOPSIS
 

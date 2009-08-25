@@ -1,6 +1,8 @@
+use 5.006;
 use Test::More qw( no_plan );
 
 use strict;
+use warnings;
 use File::ERC;
 use File::ANVL;
 

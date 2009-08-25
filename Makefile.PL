@@ -1,4 +1,4 @@
-use 5.000000;
+use 5.006;
 use strict;
 use warnings;
 use ExtUtils::MakeMaker;
@@ -12,11 +12,11 @@ WriteMakefile(
       ? ('LICENSE'=> 'Apache2')
       : ()),
     PM			=> {
-    	'lib/File/ERC.pm' => 'blib/lib/File/ERC.pm',
+	'lib/File/ERC.pm' => 'blib/lib/File/ERC.pm',
     },
     PL_FILES            => {},
     PREREQ_PM => {
-	'File::ANVL'	=> 0.15,
+	'File::ANVL'	=> 0.16,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'File-ERC-*' },

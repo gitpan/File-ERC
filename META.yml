@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               File-ERC
-version:            0.02
+version:            0.03
 abstract:           routines to support Electronic Resource Citations, version 0.01
 author:
     - John A. Kunze <jak@ucop.edu>
@@ -11,7 +11,7 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    File::ANVL:  0.15
+    File::ANVL:  0.16
 no_index:
     directory:
         - t
